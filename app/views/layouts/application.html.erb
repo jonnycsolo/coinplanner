@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coinplanner</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <nav class="navbar">
+      <h1 class='navbar-text-left'>Coinplanner</h1><!-- left sidebar -->
+
+      <h1 class="navbar-text-right">☰</h1>
+  </nav>
+
+<%= yield %>
+
+</body>
+</html>

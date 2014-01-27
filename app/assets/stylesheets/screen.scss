@@ -1,0 +1,339 @@
+@import "library";
+@import "reset";
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+@import url(http://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+// Global templates
+
+%group:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+%container {
+    margin: 0 auto;
+    // max-width: 960px;
+    min-height: 100%;
+}
+
+// Global tags
+
+body {
+    background: #E5E5E5;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+a {
+    color: #394034;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+em {font-style: italic;}
+strong {font-weight: bold;}
+
+h1 {font-size: 28px;}
+h2 {font-size: 24px;}
+h3 {font-size: 18px;}
+h4 {font-size: 14px;}
+h5 {font-size: 12px;}
+h6 {font-size: 10px;}
+p {font-size: 12px; padding-bottom: 18px;}
+
+// Everything else
+
+
+
+.navbar-text-left {
+
+  margin-left: 5%;
+  float: left;
+  width:  95%;
+  padding: 10px 10px;
+  text-align: left;
+  display: inline;
+  letter-spacing: 3px;
+  position: absolute;
+  font-family: 'Covered By Your Grace', cursive;
+  vertical-align: middle;
+
+  // font-family: 'Special Elite', cursive;
+  // padding-left: 5%;
+
+
+
+
+}
+
+.navbar {
+
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    background-color: rgb(185, 9, 11);
+    // background-color: #40403C;
+    min-height: 50px;
+    border: 1px solid transparent;
+    width: 100%
+
+
+}
+
+.navbar-text-right {
+
+  text-align: right;
+  padding: 10px 10px;
+  width: 95%;
+  margin-right: 0%;
+  display: inline;
+  position: absolute;
+  font-family: 'Lora', serif;
+  vertical-align: middle;
+  // font-family: 'Special Elite', cursive;
+
+
+}
+.navbar-right.foo {
+
+
+}
+
+
+.content{
+
+}
+
+.outsideborder{
+
+  // -webkit-border-radius: 25px;
+  // -moz-border-radius: 25px;
+  // border-radius: 25px;
+  position: absolute;
+  background-color: white;
+  display: inline;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 6%;
+  min-height: 80%;
+  width: 90%;
+  content: "";
+  border: 1px;
+  border-color: gray;
+  border-style: solid;
+
+
+}
+
+  .getcoinbase {
+    text-align: center;
+    margin: auto;
+    padding: 5px 10px;
+    margin-top: 0%;
+    width: 80%;
+    font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+
+
+  }
+
+input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
+  // padding: 10px 10px;
+  // -webkit-border-radius: 10px;
+  // -moz-border-radius: 10px;
+  // border-radius: 10px;
+  // background-color: #FAFAEA;
+  -webkit-appearance: none; -moz-appearance: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 9%;
+  margin-bottom: 9%;
+  width: 80%; height: 40px;
+  font-size: 18px;
+  height: 40px;
+  // border: 3px solid black;
+    border: 1px;
+    border-color: gray;
+     border-style: solid;
+    vertical-align: middle;
+    text-indent: 5px;
+
+}
+
+.time-select-box {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    .time-select{
+      text-indent: 10%
+    }
+}
+
+.street-address {
+  margin-top: 3%
+}
+
+button {
+
+box-shadow: rgba(0,0,0,1) 0 1px 0;
+    padding: 10px 0px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 9%;
+    width: 80%;
+    display: block;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -webkit-writing-mode: horizontal-tb;
+
+    background-color: rgb(185, 9, 11);
+
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+    border-bottom-color: #7A7A73;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+    border-left-color: #7A7A73;
+    border-left-style: solid;
+    border-left-width: 1px;
+
+    border-right-color: #7A7A73;
+    border-right-style: solid;
+    border-right-width: 1px;
+
+    border-top-color: #7A7A73;
+    border-top-style: solid;
+    border-top-width: 1px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+
+    color: rgb(255, 255, 255);
+
+    height: 40px;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+.event-details {
+
+    font-family: 'Montserrat', sans-serif;
+    .event-title
+      h1 {
+          font-size: 26px;
+          margin-left:5px;
+          margin-right: 5px;
+          padding-top: 10px;
+          text-align: center;
+          }
+    .date-label
+      h3 {
+
+          margin: 5px;
+          padding-top: 12px;
+          font-weight: bold;
+          }
+
+     .date {
+      h3 {
+
+          // padding-left: 5px;
+
+          padding-top: 3px;
+          text-align: center;
+          margin: 5px;
+          padding-top: 5px;
+
+          }
+
+     }
+    .place-label {
+      h3 {
+          margin: 5px;
+          padding-top: 15px;
+          font-weight: bold;
+
+        }
+      }
+
+    .street-address {
+      h3 {
+          margin: 5px;
+          padding-top: 3px;
+          // padding-left: 5px;
+          text-align: center;
+          }
+    }
+
+    .city-zip {
+      h3 {
+          margin: 5px;
+          padding-left: 5px;
+          // padding-left: 5px;
+          text-align: center;
+          }
+    }
+
+    .description-label {
+
+        margin-top: 10px;
+        padding-top: 10px;
+
+    }
+
+    .description-field {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+.description {
+    padding-top: 40px;
+    width: 80%;
+    p {
+        font-size: 16px;
+        line-height: 16px;
+        padding-top: 3px;
+        padding-left: 15%;
+        text-align: left;
+        margin-top: 3px;
+
+      }
+      }
+
+
+@media screen and (max-width: 500px) {
+  .description p {
+    display: none;
+  }
+
+  button {
+    margin-top: 0%;
+
+
+}
+
+
+}
+
+
+
+
+
