@@ -1,5 +1,6 @@
 Coinplanner::Application.routes.draw do
 
+  devise_for :admins
   get "pages/login"
 
   resources :tickets

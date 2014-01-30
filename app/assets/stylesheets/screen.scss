@@ -159,7 +159,7 @@ input[type=text], input[type=url], input[type=email], input[type=password], inpu
   margin: 0 auto;
   margin-top: 9%;
   margin-bottom: 9%;
-  width: 80%; height: 40px;
+  width: 70%; height: 40px;
   font-size: 18px;
   height: 40px;
   // border: 3px solid black;
@@ -183,14 +183,14 @@ input[type=text], input[type=url], input[type=email], input[type=password], inpu
   margin-top: 3%
 }
 
-button {
+button, .action {
 
 box-shadow: rgba(0,0,0,1) 0 1px 0;
     padding: 10px 0px;
     margin: auto;
     margin-top: 10%;
     margin-bottom: 9%;
-    width: 80%;
+    width: 50%;
     display: block;
     -webkit-appearance: none;
     -webkit-user-select: none;
@@ -302,6 +302,24 @@ box-shadow: rgba(0,0,0,1) 0 1px 0;
         width: 80%;
         text-align: center;
     }
+}
+
+.devise {
+  form {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    h2{
+      font-size: 25px;
+      text-align: center;
+      margin: 10px;
+  }
+  .input-field {
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: opacity(.5);
+}
 }
 
 .description {
